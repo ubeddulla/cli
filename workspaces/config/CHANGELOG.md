@@ -1,5 +1,11 @@
 # Changelog
 
+## [11.0.0-pre.2](https://github.com/npm/cli/compare/config-v11.0.0-pre.1...config-v11.0.0-pre.2) (2026-06-25)
+### Features
+* [`58cd8f5`](https://github.com/npm/cli/commit/58cd8f591d0fdeafbb8f477fb8b8f5aa2e042c90) [#9586](https://github.com/npm/cli/pull/9586) `.npm-extension` transformManifest for imperative manifest repairs (#9586) (@manzoorwanijk)
+### Bug Fixes
+* [`7655822`](https://github.com/npm/cli/commit/765582219fee6ca599ad65681c7b63168801aa15) [#9597](https://github.com/npm/cli/pull/9597) arborist: don't flag inert optional deps in strict-allow-scripts (#9597) (@JamieMagee)
+
 ## [11.0.0-pre.1](https://github.com/npm/cli/compare/config-v11.0.0-pre.0...config-v11.0.0-pre.1) (2026-06-19)
 ### ⚠️ BREAKING CHANGES
 * The default license for `npm init` has been changed from "ISC" to an empty string. If not set, the license field will be omitted from new packages.

@@ -1,5 +1,30 @@
 # Changelog
 
+## [11.18.0](https://github.com/npm/cli/compare/v11.17.0...v11.18.0) (2026-06-25)
+### Features
+* [`9420673`](https://github.com/npm/cli/commit/9420673bcdc59c4acb35c406308bb641c2aef635) [#9662](https://github.com/npm/cli/pull/9662) install-scripts: prune unused allowScripts entries (#9662) (@github-actions[bot], @JamieMagee)
+* [`fc9d4c7`](https://github.com/npm/cli/commit/fc9d4c72d8ee300a843e8186c5fc39e9c3e874ae) [#9635](https://github.com/npm/cli/pull/9635) namespace install-script approval commands under npm install-scripts (#9635) (@manzoorwanijk)
+* [`073253f`](https://github.com/npm/cli/commit/073253f8642d1177000b8d18ebe0abcad2ac9b1a) [#9564](https://github.com/npm/cli/pull/9564) warn when min-release-age blocks an audit fix (#9564) (@github-actions[bot], @JamieMagee)
+### Bug Fixes
+* [`5b6ff9c`](https://github.com/npm/cli/commit/5b6ff9c23e5fbfdfea3bf4c53e3e8094179197c5) [#9667](https://github.com/npm/cli/pull/9667) reify: report added count for fresh linked installs (#9667) (@github-actions[bot], @manzoorwanijk, @owlstronaut)
+* [`8f13beb`](https://github.com/npm/cli/commit/8f13beb2cae8582b50ab44ef43154c4c6aaf8a27) [#9664](https://github.com/npm/cli/pull/9664) query: report logical dep location under linked strategy (#9664) (@github-actions[bot], @manzoorwanijk)
+* [`168ba30`](https://github.com/npm/cli/commit/168ba30915a844075d9217de46030a8f6ce09903) [#9663](https://github.com/npm/cli/pull/9663) allowScripts: close enforcement gaps (#9652) (backport release/v11) (#9663) (@JamieMagee)
+* [`ae64f88`](https://github.com/npm/cli/commit/ae64f883f8345f53cb20f968fafffbb2e6d0c9f6) [#9648](https://github.com/npm/cli/pull/9648) exec: resolve workspace-local bin under the linked install strategy (#9648) (@github-actions[bot], @manzoorwanijk)
+* [`784cbe9`](https://github.com/npm/cli/commit/784cbe99c3e35b128ee0a5e6ff569517305a5c33) [#9636](https://github.com/npm/cli/pull/9636) ls: restore 100% coverage on release/v11 after #9633 (#9636) (@manzoorwanijk)
+* [`70f0ea5`](https://github.com/npm/cli/commit/70f0ea5a0642919f8d2bee9c3c61490e12846b4e) [#9607](https://github.com/npm/cli/pull/9607) approve-scripts: approve deps with no resolved URL by name (#9607) (@github-actions[bot], @JamieMagee)
+* [`b2e6338`](https://github.com/npm/cli/commit/b2e63385c991cfc1430e8e5c347f33a7fd47e0e9) [#9602](https://github.com/npm/cli/pull/9602) arborist: don't flag inert optional deps in strict-allow-scripts (#9602) (@github-actions[bot], @JamieMagee)
+* [`6ad5715`](https://github.com/npm/cli/commit/6ad5715c6500b388c64f76826a5038db990aea3a) [#9595](https://github.com/npm/cli/pull/9595) link: scope `npm link <path> --workspace` to the workspace, not the root (#9595) (@github-actions[bot], @manzoorwanijk)
+### Dependencies
+* [`804f9ba`](https://github.com/npm/cli/commit/804f9badd99c5c530db0a6c288b18104512d10c3) [#9580](https://github.com/npm/cli/pull/9580) `npm-profile@12.0.2`
+### Chores
+* [`a04cd84`](https://github.com/npm/cli/commit/a04cd845e9784ac8a03c1db721dc7a366eadb4f1) [#9584](https://github.com/npm/cli/pull/9584) add web-login proxy doneUrl regression for npm-profile fix (#9584) (@github-actions[bot], @manzoorwanijk)
+* [workspace](https://github.com/npm/cli/releases/tag/arborist-v9.9.0): `@npmcli/arborist@9.9.0`
+* [workspace](https://github.com/npm/cli/releases/tag/config-v10.12.0): `@npmcli/config@10.12.0`
+* [workspace](https://github.com/npm/cli/releases/tag/libnpmdiff-v8.1.11): `libnpmdiff@8.1.11`
+* [workspace](https://github.com/npm/cli/releases/tag/libnpmexec-v10.3.1): `libnpmexec@10.3.1`
+* [workspace](https://github.com/npm/cli/releases/tag/libnpmfund-v7.0.25): `libnpmfund@7.0.25`
+* [workspace](https://github.com/npm/cli/releases/tag/libnpmpack-v9.1.11): `libnpmpack@9.1.11`
+
 ## [11.17.0](https://github.com/npm/cli/compare/v11.16.0...v11.17.0) (2026-06-11)
 ### Features
 * [`ae8ac4e`](https://github.com/npm/cli/commit/ae8ac4ea39776f74551fc850f4a5e766b81c5545) [#9534](https://github.com/npm/cli/pull/9534) add min-release-age-exclude config (@JamieMagee, @caseyjhol)

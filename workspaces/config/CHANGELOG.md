@@ -1,5 +1,11 @@
 # Changelog
 
+## [10.12.0](https://github.com/npm/cli/compare/config-v10.11.0...config-v10.12.0) (2026-06-25)
+### Features
+* [`073253f`](https://github.com/npm/cli/commit/073253f8642d1177000b8d18ebe0abcad2ac9b1a) [#9564](https://github.com/npm/cli/pull/9564) warn when min-release-age blocks an audit fix (#9564) (@github-actions[bot], @JamieMagee)
+### Bug Fixes
+* [`b2e6338`](https://github.com/npm/cli/commit/b2e63385c991cfc1430e8e5c347f33a7fd47e0e9) [#9602](https://github.com/npm/cli/pull/9602) arborist: don't flag inert optional deps in strict-allow-scripts (#9602) (@github-actions[bot], @JamieMagee)
+
 ## [10.11.0](https://github.com/npm/cli/compare/config-v10.10.0...config-v10.11.0) (2026-06-11)
 ### Features
 * [`5f73e31`](https://github.com/npm/cli/commit/5f73e3111a39646f549bad7e39b9c3a9b69865cb) [#9539](https://github.com/npm/cli/pull/9539) differentiate GitHub Actions environments in user-agent (#9517) (@reggi, @Copilot)
